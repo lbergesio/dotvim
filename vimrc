@@ -156,12 +156,15 @@ execute pathogen#infect()
 "color schemes are installed as submodules
 
 " turn syntax highlighting on
-" set t_Co=256
+"set t_Co=256
 syntax on
-let g:solarized_termcolors=256
-set background=dark
-colorscheme solarized
+
+"let g:solarized_termcolors=256
+"set background=dark
+"colorscheme solarized
 
 "colorscheme yaflandia
+set background=dark
+colorscheme koehler 
 
-"colorscheme phd
+"colorscheme custom 
