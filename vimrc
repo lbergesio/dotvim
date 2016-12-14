@@ -47,11 +47,6 @@ set tw=80 fo=cqt wm=0
 highlight ColorColumn ctermbg=gray
 set colorcolumn=80
 
-" turn syntax highlighting on
-" set t_Co=256
-syntax on
-colorscheme phd
-
 " turn line numbers on
 set number
 
@@ -156,3 +151,11 @@ map <S-F12> :sp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 " Enable pathogen.vim
 execute pathogen#infect()
+
+" turn syntax highlighting on
+" set t_Co=256
+let g:solarized_termcolors=256
+syntax on
+set background=dark
+colorscheme solarized
+" colorscheme phd
