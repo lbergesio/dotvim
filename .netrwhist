@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/opt/va-builder/va'
+let g:netrw_dirhist_2='/opt/va-builder/va/src'
+let g:netrw_dirhist_3='/opt/va-builder/va/src/lmib'
+let g:netrw_dirhist_4='/opt/va-builder/va/src/lmib/model'
+let g:netrw_dirhist_5='/opt/va-builder/va/test/unit/mockup_driver'
