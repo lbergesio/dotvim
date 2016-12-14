@@ -152,10 +152,16 @@ map <S-F12> :sp <CR>:exec("tag ".expand("<cword>"))<CR>
 " Enable pathogen.vim
 execute pathogen#infect()
 
+"Configuration of color schemes. This has to be after pathogen init if some
+"color schemes are installed as submodules
+
 " turn syntax highlighting on
 " set t_Co=256
-let g:solarized_termcolors=256
 syntax on
+let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
-" colorscheme phd
+
+"colorscheme yaflandia
+
+"colorscheme phd
