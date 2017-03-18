@@ -159,12 +159,6 @@ execute pathogen#infect()
 "set t_Co=256
 syntax on
 
-"let g:solarized_termcolors=256
-"set background=dark
-"colorscheme solarized
-
-"colorscheme yaflandia
+let g:solarized_termcolors=256
 set background=dark
-colorscheme koehler 
-
-"colorscheme custom 
+colorscheme solarized
