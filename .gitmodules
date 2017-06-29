@@ -5,3 +5,9 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/tender.vim"]
+	path = bundle/tender.vim
+	url = https://github.com/jacoborus/tender.vim.git
+[submodule "bundle/lucario"]
+	path = bundle/lucario
+	url = https://github.com/raphamorim/lucario.git
